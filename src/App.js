@@ -1,24 +1,22 @@
+import Container from 'react-bootstrap/Container';
+
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container className="App p-3">
+      <img src={logo} className="App-logo text-center" alt="logo" />
+      <h1>The Holders</h1>
+      <p>
+        In any city, in any country, there's a mental institution or halfway house you can try any of these in. There were 2538 of these Objects, but 2000 were lost. 
+        <br/>
+        The remaining 538 must never come together. Ever.
+      </p>
+      <p>
+        - coming soon -
+      </p>
+    </Container>
   );
 }
 
